@@ -4,18 +4,19 @@
   "author": "John Otander",
   "version": "0.1.0",
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "scripts": {
     "test": "ava"
   },
   "repository": "johnotander/strip-pseudos",
-  "keywords": [],
+  "keywords": [
+    "css",
+    "selectors",
+    "pseudo-class",
+    "pseudo-element"
+  ],
   "license": "MIT",
   "dependencies": {
-    "css-selector-tokenizer": "^0.5.4",
-    "lodash": "^4.13.1"
+    "css-selector-tokenizer": "^0.5.4"
   },
   "devDependencies": {
     "ava": "*"
