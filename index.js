@@ -1,7 +1,6 @@
 'use strict'
 
 var SelectorTokenizer = require('css-selector-tokenizer')
-var _ = require('lodash')
 
 module.exports = function stripPseudos (selector) {
   if (typeof selector !== 'string') {
