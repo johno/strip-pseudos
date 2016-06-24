@@ -13,7 +13,9 @@ npm install --save strip-pseudos
 ```javascript
 var stripPseudos = require('strip-pseudos')
 
-stripPseudos()  // => true
+stripPseudos('.cf:after')  // => '.cf'
+stripPseudos('li:first-child')  // => 'li'
+stripPseudos('li:first-child > .foo:after')  // => 'li > .foo'
 ```
 
 ## License
