@@ -1,7 +1,7 @@
 import test from 'ava'
 import stripPseudos from './'
 
-test('strip-pseudos does something awesome', t => {
+test('strip-pseudos does what the name implies', t => {
   t.plan(4)
 
   t.is(stripPseudos('.cf:after'), '.cf')
